@@ -32,7 +32,6 @@ $(OBJ_DIR):
 clean:
 	$(MAKE) clean -C $(LIBFTDIR)
 	rm -fr $(OBJ_DIR)
-	rm -f $(OBJS)
 
 fclean: clean
 	$(MAKE) fclean -C $(LIBFTDIR)
